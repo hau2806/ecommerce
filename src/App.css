@@ -1,0 +1,72 @@
+@keyframes firework-red {
+    0% {
+      transform: translateY(0) scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: translateY(-300px) scale(1.5);
+      opacity: 0.5;
+    }
+    100% {
+      transform: translateY(-500px) scale(2);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes firework-blue {
+    0% {
+      transform: translateY(0) scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: translateY(-300px) scale(1.5);
+      opacity: 0.5;
+    }
+    100% {
+      transform: translateY(-500px) scale(2);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes firework-yellow {
+    0% {
+      transform: translateY(0) scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: translateY(-300px) scale(1.5);
+      opacity: 0.5;
+    }
+    100% {
+      transform: translateY(-500px) scale(2);
+      opacity: 0;
+    }
+  }
+  
+  .firework-red {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #ff0;
+    border-radius: 50%;
+    animation: firework-red 2s linear infinite;
+  }
+  
+  .firework-blue {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #00f;
+    border-radius: 50%;
+    animation: firework-blue 2s linear infinite;
+  }
+  
+  .firework-yellow {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #f00;
+    border-radius: 50%;
+    animation: firework-yellow 2s linear infinite;
+  }
+  

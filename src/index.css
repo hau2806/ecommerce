@@ -1,0 +1,40 @@
+/* @import "../src/components/Header_Footer/Header.css"; */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+  /* overflow-x: hidden; */
+  /* scroll-behavior: smooth; */
+}
+
+.pay-information {
+  background-color: red;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  /* color: #ff9800; */
+}
+
+/* .search-input {
+  position: absolute;
+  top: calc(100% + 10px);
+
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  padding: 8px;
+  z-index: 999;
+} */

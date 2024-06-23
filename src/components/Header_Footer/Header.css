@@ -1,0 +1,31 @@
+.item {
+  background-color: white;
+  color: grey;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  cursor: pointer;
+}
+.item:hover {
+  background-color: blue;
+  color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.btn-header:hover {
+  color: grey;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.btn-header {
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: blue;
+}
